@@ -18,7 +18,7 @@ The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241
 ## CNFOOD-241-Chen dataset
 <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/dataset_split.png?raw=true"  height="256">  
 
-The image list can be found in `CNFOOD241_data_split` folder, and the data file can be available on [here](https://huggingface.co/datasets/ms57rd/CNFOOD-241-Chen).
+The image list can be found in `CNFOOD241_data_split` folder.
 
 ## Reference
 The original CNFOOD-241 data: https://data.mendeley.com/datasets/fspyss5zbb/1  
