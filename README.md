@@ -11,3 +11,7 @@ Please follw the installation flow on [VMamba](https://github.com/MzeroMiko/VMam
 The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba) .
 
 ## CNFOOD-241-Chen dataset
+The image list can be found in `CNFOOD241_data_split` folder, and the data file can be available on [here](https://huggingface.co/datasets/ms57rd/CNFOOD-241-Chen).
+
+## Reference
+The original CNFOOD-241 data: https://data.mendeley.com/datasets/fspyss5zbb/1  
