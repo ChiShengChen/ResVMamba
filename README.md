@@ -1,6 +1,6 @@
 # ResVMamba
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/res-vmamba-fine-grained-food-category-visual/fine-grained-image-recognition-on-cnfood-241)](https://paperswithcode.com/sota/fine-grained-image-recognition-on-cnfood-241?p=res-vmamba-fine-grained-food-category-visual)  
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)]([https://huggingface.co/ms57rd/Res-VMamba]) ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) ![Stars](https://img.shields.io/github/stars/ms57rd/ResVMamba)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)]([https://huggingface.co/ms57rd/Res-VMamba]) ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) ![Stars](https://img.shields.io/github/stars/ChiShengChen/ResVMamba)
 
 
 
