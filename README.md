@@ -8,6 +8,6 @@ The official repo of [Res-VMamba: Fine-Grained Food Category Visual Classificati
 Please follw the installation flow on [VMamba](https://github.com/MzeroMiko/VMamba) , and rename and replace the `resvmamba.py` in this repo to the `vmemba.py` in `models` folder.
 
 ## Pretrain-weight
-The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba)https://huggingface.co/ms57rd/Res-VMamba.
+The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba) .
 
 ## CNFOOD-241-Chen dataset
