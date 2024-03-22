@@ -4,7 +4,7 @@
 
 
 
-The official repo of [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) , the most part of code is modified from [VMamba](https://github.com/MzeroMiko/VMamba) .  
+The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) , the most part of code is modified from [VMamba](https://github.com/MzeroMiko/VMamba) .  
 
  <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/cnfood-241-report-new.jpg?raw=true"> 
 
@@ -20,5 +20,9 @@ The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241
 
 The image list can be found in `CNFOOD241_data_split` folder.
 
+## Stars 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ChiShengChen/ResVMamba&type=Date)](https://star-history.com/#ChiShengChen/ResVMamba&Date)  
 ## Reference
 The original CNFOOD-241 data: https://data.mendeley.com/datasets/fspyss5zbb/1  
