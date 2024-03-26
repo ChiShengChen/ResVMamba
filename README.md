@@ -12,10 +12,16 @@ The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classi
 ## Get started
 Please follw the installation flow on [VMamba](https://github.com/MzeroMiko/VMamba) , and rename and replace the `resvmamba.py` in this repo to the `vmemba.py` in `models` folder.
 
-## Pretrained-weight
-The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba) .
+### Pretrained-weight
+The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba) .  
+The downloaded weight need to put under the folder path:   
+`./ResVMamba/pretrained_model/vssm_small/default/ckpt_epoch_166.pth`  
 
-## CNFOOD-241-Chen dataset
+### Run Command
+For has only 1 GPU card:  
+`python3 -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=1 --master_addr="127.0.0.1" --master_port=29501 main.py --cfg configs/vssm/vssm_small_224.yaml --batch-size 16 --data-path <Your_data_path>/food_data/CNFOOD-241   --output ./ResVMamba/pretrained_model`
+
+### CNFOOD-241-Chen dataset
 <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/dataset_split.png?raw=true"  height="256">  
 
 The image list can be found in `CNFOOD241_data_split` folder.
