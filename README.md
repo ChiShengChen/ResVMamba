@@ -21,10 +21,14 @@ The downloaded weight need to put under the folder path:
 For has only 1 GPU card:  
 `python3 -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=1 --master_addr="127.0.0.1" --master_port=29501 main.py --cfg configs/vssm/vssm_small_224.yaml --batch-size 16 --data-path <Your_data_path>/food_data/CNFOOD-241   --output ./ResVMamba/pretrained_model`
 
-### CNFOOD-241-Chen dataset
+## CNFOOD-241-Chen dataset
 <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/dataset_split.png?raw=true"  height="256">  
 
 The image list can be found in `CNFOOD241_data_split` folder.
+
+## Training Result on paper
+![Screenshot from 2024-03-27 01-20-07](https://github.com/ChiShengChen/ResVMamba/assets/22126443/653d4086-b227-4bbe-953d-72f1a928edc3)
+
 
 ## Star History
 
