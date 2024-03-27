@@ -19,7 +19,9 @@ The downloaded weight need to put under the folder path:
 
 ### Run Command
 For has only 1 GPU card:  
-`python3 -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=1 --master_addr="127.0.0.1" --master_port=29501 main.py --cfg configs/vssm/vssm_small_224.yaml --batch-size 16 --data-path <Your_data_path>/food_data/CNFOOD-241   --output ./ResVMamba/pretrained_model`
+```
+python3 -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=1 --master_addr="127.0.0.1" --master_port=29501 main.py --cfg configs/vssm/vssm_small_224.yaml --batch-size 16 --data-path <Your_data_path>/food_data/CNFOOD-241   --output ./ResVMamba/pretrained_model
+```
 
 ## CNFOOD-241-Chen dataset
 <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/dataset_split.png?raw=true"  height="256">  
