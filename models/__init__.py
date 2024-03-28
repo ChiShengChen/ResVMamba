@@ -3,7 +3,7 @@ from functools import partial
 
 import torch
 
-from .vmamba import VSSM
+from .resvmamba import VSSM
 try:
     from .heat import HeatM
 except:
