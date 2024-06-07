@@ -13,7 +13,7 @@ The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classi
 Please follw the installation flow on [VMamba](https://github.com/MzeroMiko/VMamba).
 
 ### Pretrained-weight
-The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba) .  
+The Res-VMamba model best weight with VMamba-S as backbone trained on CNFOOD-241-Chen (CNFOOD-241 dataset with the random split in the paper) can be available on the [HuggingFace](https://huggingface.co/ms57rd/Res-VMamba/tree/main) .  
 The downloaded weight need to put under the folder path:   
 `./ResVMamba/pretrained_model/vssm_small/default/ckpt_epoch_166.pth`  
 
