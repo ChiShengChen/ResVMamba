@@ -13,4 +13,4 @@ tensorboardX
 fvcore
 seaborn
 einops
-yaml
+PyYAML
