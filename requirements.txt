@@ -8,3 +8,4 @@ pytest chardet yacs termcolor
 submitit tensorboardX
 fvcore
 seaborn
+einops
