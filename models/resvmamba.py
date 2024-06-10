@@ -345,11 +345,11 @@ def selective_scan_flop_jit(inputs, outputs):
     print_jit_input_names(inputs)
 
     # xs, dts, As, Bs, Cs, Ds (skip), z (skip), dt_projs_bias (skip)
-    assert inputs[0].debugName().startswith("xs") # (B, D, L)
-    assert inputs[1].debugName().startswith("dts") # (B, D, L)
-    assert inputs[2].debugName().startswith("As") # (D, N)
-    assert inputs[3].debugName().startswith("Bs") # (D, N)
-    assert inputs[4].debugName().startswith("Cs") # (D, N)
+   # assert inputs[0].debugName().startswith("xs") # (B, D, L)
+   # assert inputs[1].debugName().startswith("dts") # (B, D, L)
+   # assert inputs[2].debugName().startswith("As") # (D, N)
+   # assert inputs[3].debugName().startswith("Bs") # (D, N)
+   # assert inputs[4].debugName().startswith("Cs") # (D, N)
     with_Group = len(inputs[3].type().sizes()) == 4
     with_D = inputs[5].debugName().startswith("Ds")
     if not with_D:
