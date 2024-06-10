@@ -85,7 +85,7 @@ def parse_option():
     parser.add_argument('--throughput', action='store_true', help='Test throughput only')
 
     # distributed training
-    parser.add_argument("--local_rank", type=int, required=True, help='local rank for DistributedDataParallel')
+    # parser.add_argument("--local_rank", type=int, required=True, help='local rank for DistributedDataParallel')
 
     # for acceleration
     # parser.add_argument('--fused_window_process', action='store_true',
@@ -137,7 +137,8 @@ def main(config):
 
 
     optimizer = build_optimizer(config, model)
-    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[config.LOCAL_RANK], broadcast_buffers=False)
+    # model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[config.LOCAL_RANK], broadcast_buffers=False)
+    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[0], broadcast_buffers=False)
     loss_scaler = NativeScalerWithGradNormCount()
 
     if config.TRAIN.ACCUMULATION_STEPS > 1:
@@ -365,7 +366,8 @@ if __name__ == '__main__':
     else:
         rank = -1
         world_size = -1
-    torch.cuda.set_device(config.LOCAL_RANK)
+    # torch.cuda.set_device(config.LOCAL_RANK)
+    torch.cuda.set_device(0)
     torch.distributed.init_process_group(backend='nccl', init_method='env://', world_size=world_size, rank=rank)
     torch.distributed.barrier()
 
