@@ -43,16 +43,11 @@ The original CNFOOD-241 data: https://data.mendeley.com/datasets/fspyss5zbb/1
 ## Citation
 Hope this code is helpful. I would appreciate you citing us in your paper. 😊
 ```
-@misc{chen2024resvmamba,
-  title = {Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning},
-  author = {Chen, Chi-Sheng and Chen, Guan-Ying and Zhou, Dong and Jiang, Di and Chen, Dai-Shi},
-  year = {2024},
-  month = Feb,
-  number = {arXiv:2402.15761},
-  eprint = {2402.15761},
-  primaryclass = {cs, eess, cv},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2402.15761},
-  archiveprefix = {arxiv}
+@article{chen2024res,
+  title={Res-vmamba: Fine-grained food category visual classification using selective state space models with deep residual learning},
+  author={Chen, Chi-Sheng and Chen, Guan-Ying and Zhou, Dong and Jiang, Di and Chen, Dai-Shi},
+  journal={arXiv preprint arXiv:2402.15761},
+  year={2024}
 }
+
 ```
