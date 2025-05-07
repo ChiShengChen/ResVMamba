@@ -3,15 +3,15 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/res-vmamba-fine-grained-food-category-visual/fine-grained-image-recognition-on-cnfood-241)](https://paperswithcode.com/sota/fine-grained-image-recognition-on-cnfood-241?p=res-vmamba-fine-grained-food-category-visual)  
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)]([https://huggingface.co/ms57rd/Res-VMamba]) ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) ![Stars](https://img.shields.io/github/stars/ChiShengChen/ResVMamba)
 
-
+## NEWS
+🚩 **May 2025**: This paper has been accepted by [PloS one](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0322695)!  
 
 The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) , the most part of code is modified from [VMamba](https://github.com/MzeroMiko/VMamba) .  
 
  <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/cnfood-241-report-new.jpg?raw=true"> 
 
 
-## NEWS
-🚩 **May 2025**: This paper has been accepted by [PloS one](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0322695)!  
+
 
 
 ## Get started
@@ -54,4 +54,17 @@ Hope this code is helpful. I would appreciate you citing us in your paper. 😊
   year={2024}
 }
 
+```
+
+```
+@article{chen2025improving,
+  title={Improving fine-grained food classification using deep residual learning and selective state space models},
+  author={Chen, Chi-Sheng and Chen, Guan-Ying and Zhou, Dong and Jiang, Di and Chen, Daishi and Chang, Shao-Hsuan},
+  journal={PloS one},
+  volume={20},
+  number={5},
+  pages={e0322695},
+  year={2025},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
 ```
