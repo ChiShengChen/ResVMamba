@@ -10,6 +10,10 @@ The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classi
  <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/cnfood-241-report-new.jpg?raw=true"> 
 
 
+## NEWS
+🚩 **May 2025**: This paper has been accepted by [PloS one](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0322695)!  
+
+
 ## Get started
 Please follw the installation flow on [VMamba](https://github.com/MzeroMiko/VMamba).
 
