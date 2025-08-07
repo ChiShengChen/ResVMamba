@@ -8,7 +8,7 @@
 
 
 ## Get started
-The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) , the most part of code is modified from [VMamba](https://github.com/MzeroMiko/VMamba) .  
+The official repository of [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) and [Improving fine-grained food classification using deep residual learning and selective state space models](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0322695) , the most part of code is modified from [VMamba](https://github.com/MzeroMiko/VMamba) .  
 
  <img src="https://github.com/ChiShengChen/ResVMamba/blob/main/imgs/cnfood-241-report-new.jpg?raw=true"> 
 
